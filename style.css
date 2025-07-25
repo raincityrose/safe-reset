@@ -1,25 +1,51 @@
 body {
-    font-family: sans-serif;
-    background-color: #e3f4e3;
-    color: #2f4f2f;
-    margin: 0;
-    padding: 20px;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #e6f0e9;
+  color: #2f4f4f;
+  text-align: center;
+  padding: 2em;
 }
-header, footer {
-    text-align: center;
+
+.container {
+  max-width: 600px;
+  margin: auto;
 }
+
+.circle {
+  width: 150px;
+  height: 150px;
+  background-color: #a8d5ba;
+  border-radius: 50%;
+  margin: 2em auto;
+  animation: breathe 20s ease-in-out infinite;
+}
+
+@keyframes breathe {
+  0% { transform: scale(1); }
+  25% { transform: scale(1.2); }
+  50% { transform: scale(1); }
+  75% { transform: scale(0.9); }
+  100% { transform: scale(1); }
+}
+
 button {
-    margin: 10px;
-    padding: 12px 20px;
-    background-color: #cceccc;
-    border: none;
-    border-radius: 12px;
-    font-size: 1em;
-    cursor: pointer;
+  background-color: #6fa48c;
+  color: white;
+  border: none;
+  padding: 1em 2em;
+  border-radius: 12px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 1em;
 }
+
 button:hover {
-    background-color: #b5ddb5;
+  background-color: #5b947b;
 }
-#activity-content {
-    margin-top: 20px;
+
+.breathe-text {
+  font-size: 1.5em;
+  margin: 1em 0;
+  color: #3d5f5f;
 }
