@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+    background-color: #e3f4e3;
+    color: #2f4f2f;
+    margin: 0;
+    padding: 20px;
+}
+header, footer {
+    text-align: center;
+}
+button {
+    margin: 10px;
+    padding: 12px 20px;
+    background-color: #cceccc;
+    border: none;
+    border-radius: 12px;
+    font-size: 1em;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #b5ddb5;
+}
+#activity-content {
+    margin-top: 20px;
+}
