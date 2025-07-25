@@ -1,31 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rose's Reset</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rose's Reset 🌿</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <h1>🌿 Rose's Reset</h1>
-        <p>Choose your current state or begin a gentle distraction cycle.</p>
-    </header>
-    <main>
-        <section id="welcome-screen">
-            <button onclick="startLevel(1)">🟢 Level 1: Mild</button>
-            <button onclick="startLevel(2)">🟡 Level 2: Moderate</button>
-            <button onclick="startLevel(3)">🔴 Level 3: SOS</button>
-        </section>
-        <section id="activity-display" style="display:none;">
-            <h2 id="activity-title"></h2>
-            <div id="activity-content"></div>
-            <button onclick="nextActivity()">Next</button>
-        </section>
-    </main>
-    <footer>
-        <p>Trigger log saved for therapy insights 🧠</p>
-    </footer>
-    <script src="script.js"></script>
+  <div class="container">
+    <h1>Rose’s Reset 🌿</h1>
+    <p class="affirmation">You are safe. This feeling will pass.</p>
+    <div class="circle"></div>
+    <p class="breathe-text">Inhale... hold... exhale... 🌬️</p>
+    <button onclick="resetLevel()">SOS Mode 🚨</button>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
